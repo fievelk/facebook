@@ -14,3 +14,4 @@ In all the cases, they are documented below, and they have to be exectued in seq
   * fix/2.js: fixed the missing of `startingTime` in `timelines` using the earliest related from `impressions`
   * fix/3.js: Fixed `when` in `accesses`, is `String` has to be `Date`
   * fix/4.js: Dropped everything earlier than 9 of December, day of ß launch
+  * fix/5.js: Provide coherence between in `supporters`, `userId` sometime is `Double`, other is `String`, has to be `Double`
